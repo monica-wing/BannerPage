@@ -12,13 +12,15 @@ class ViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    let banner = BannerPageView(frame: CGRect(x: 0, y: 0, width: view.width, height: view.width / 2))
+    view.addSubview(banner)
+    banner.imagesURL = [
+      "http://qsqseapp-10000035.image.myqcloud.com/qqtbossdevcom/banner/8c6c900824bc7c934e42361ca134ee27.png",
+      "http://qsqseapp-10000035.image.myqcloud.com/qqtbossdevcom/banner/0e3fc408497be65a68ef137a517445f2.png"
+      ]
   }
-
-  override func didReceiveMemoryWarning() {
-    super.didReceiveMemoryWarning()
-    // Dispose of any resources that can be recreated.
-  }
+  
 
 
 }

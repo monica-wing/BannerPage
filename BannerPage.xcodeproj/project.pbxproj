@@ -12,9 +12,16 @@
 		6CB9BD651CC4B77C0098903D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CB9BD631CC4B77C0098903D /* Main.storyboard */; };
 		6CB9BD671CC4B77C0098903D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CB9BD661CC4B77C0098903D /* Assets.xcassets */; };
 		6CB9BD6A1CC4B77C0098903D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CB9BD681CC4B77C0098903D /* LaunchScreen.storyboard */; };
+		6CB9BD731CC4B7A00098903D /* BannerPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB9BD721CC4B7A00098903D /* BannerPageView.swift */; };
+		6CB9BD791CC4B82A0098903D /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB9BD751CC4B82A0098903D /* StringExtension.swift */; };
+		6CB9BD7A1CC4B82A0098903D /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB9BD761CC4B82A0098903D /* UIColorExtension.swift */; };
+		6CB9BD7B1CC4B82A0098903D /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB9BD771CC4B82A0098903D /* UIImageExtension.swift */; };
+		6CB9BD7C1CC4B82A0098903D /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB9BD781CC4B82A0098903D /* UIViewExtension.swift */; };
+		C60E527E4960E11A49BEF27F /* Pods_BannerPage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 195877026CB6E786CD7D6B16 /* Pods_BannerPage.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		195877026CB6E786CD7D6B16 /* Pods_BannerPage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BannerPage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CB9BD5C1CC4B77C0098903D /* BannerPage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BannerPage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CB9BD5F1CC4B77C0098903D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6CB9BD611CC4B77C0098903D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,14 @@
 		6CB9BD661CC4B77C0098903D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6CB9BD691CC4B77C0098903D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6CB9BD6B1CC4B77C0098903D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CB9BD721CC4B7A00098903D /* BannerPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerPageView.swift; sourceTree = "<group>"; };
+		6CB9BD751CC4B82A0098903D /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		6CB9BD761CC4B82A0098903D /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		6CB9BD771CC4B82A0098903D /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		6CB9BD781CC4B82A0098903D /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		6CB9BD7D1CC4BAE90098903D /* BannerPage-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BannerPage-Bridging-Header.h"; sourceTree = "<group>"; };
+		92BCE9ED28B819CF5C4D6C1E /* Pods-BannerPage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BannerPage.release.xcconfig"; path = "Pods/Target Support Files/Pods-BannerPage/Pods-BannerPage.release.xcconfig"; sourceTree = "<group>"; };
+		FA3CDF6F445450341D42D9AE /* Pods-BannerPage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BannerPage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BannerPage/Pods-BannerPage.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C60E527E4960E11A49BEF27F /* Pods_BannerPage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +56,8 @@
 			children = (
 				6CB9BD5E1CC4B77C0098903D /* BannerPage */,
 				6CB9BD5D1CC4B77C0098903D /* Products */,
+				E53E1107975E9489FE8C3385 /* Pods */,
+				A8DDAF6D97CC5D7F3901CACC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +72,53 @@
 		6CB9BD5E1CC4B77C0098903D /* BannerPage */ = {
 			isa = PBXGroup;
 			children = (
+				6CB9BD711CC4B7A00098903D /* BannerPage */,
+				6CB9BD741CC4B82A0098903D /* Extensions */,
 				6CB9BD5F1CC4B77C0098903D /* AppDelegate.swift */,
 				6CB9BD611CC4B77C0098903D /* ViewController.swift */,
 				6CB9BD631CC4B77C0098903D /* Main.storyboard */,
 				6CB9BD661CC4B77C0098903D /* Assets.xcassets */,
 				6CB9BD681CC4B77C0098903D /* LaunchScreen.storyboard */,
 				6CB9BD6B1CC4B77C0098903D /* Info.plist */,
+				6CB9BD7D1CC4BAE90098903D /* BannerPage-Bridging-Header.h */,
 			);
 			path = BannerPage;
+			sourceTree = "<group>";
+		};
+		6CB9BD711CC4B7A00098903D /* BannerPage */ = {
+			isa = PBXGroup;
+			children = (
+				6CB9BD721CC4B7A00098903D /* BannerPageView.swift */,
+			);
+			path = BannerPage;
+			sourceTree = "<group>";
+		};
+		6CB9BD741CC4B82A0098903D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6CB9BD751CC4B82A0098903D /* StringExtension.swift */,
+				6CB9BD761CC4B82A0098903D /* UIColorExtension.swift */,
+				6CB9BD771CC4B82A0098903D /* UIImageExtension.swift */,
+				6CB9BD781CC4B82A0098903D /* UIViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A8DDAF6D97CC5D7F3901CACC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				195877026CB6E786CD7D6B16 /* Pods_BannerPage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E53E1107975E9489FE8C3385 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA3CDF6F445450341D42D9AE /* Pods-BannerPage.debug.xcconfig */,
+				92BCE9ED28B819CF5C4D6C1E /* Pods-BannerPage.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +128,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6CB9BD6E1CC4B77C0098903D /* Build configuration list for PBXNativeTarget "BannerPage" */;
 			buildPhases = (
+				55B332F36341C924601411F0 /* Check Pods Manifest.lock */,
 				6CB9BD581CC4B77C0098903D /* Sources */,
 				6CB9BD591CC4B77C0098903D /* Frameworks */,
 				6CB9BD5A1CC4B77C0098903D /* Resources */,
+				DFEA7117CB8E89C0AA42DFE5 /* Embed Pods Frameworks */,
+				6420E3B9BC25084C5D5F174B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,13 +190,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		55B332F36341C924601411F0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6420E3B9BC25084C5D5F174B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BannerPage/Pods-BannerPage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFEA7117CB8E89C0AA42DFE5 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BannerPage/Pods-BannerPage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6CB9BD581CC4B77C0098903D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CB9BD791CC4B82A0098903D /* StringExtension.swift in Sources */,
+				6CB9BD731CC4B7A00098903D /* BannerPageView.swift in Sources */,
+				6CB9BD7A1CC4B82A0098903D /* UIColorExtension.swift in Sources */,
 				6CB9BD621CC4B77C0098903D /* ViewController.swift in Sources */,
+				6CB9BD7C1CC4B82A0098903D /* UIViewExtension.swift in Sources */,
 				6CB9BD601CC4B77C0098903D /* AppDelegate.swift in Sources */,
+				6CB9BD7B1CC4B82A0098903D /* UIImageExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,7 +312,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -238,7 +351,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -247,23 +360,29 @@
 		};
 		6CB9BD6F1CC4B77C0098903D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA3CDF6F445450341D42D9AE /* Pods-BannerPage.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BannerPage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.ir0ach.BannerPage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BannerPage/BannerPage-Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		6CB9BD701CC4B77C0098903D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92BCE9ED28B819CF5C4D6C1E /* Pods-BannerPage.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BannerPage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.ir0ach.BannerPage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BannerPage/BannerPage-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -286,6 +405,7 @@
 				6CB9BD701CC4B77C0098903D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
